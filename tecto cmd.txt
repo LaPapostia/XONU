@@ -1,0 +1,315 @@
+Microsoft Windows [Versión 10.0.17134.829]
+(c) 2018 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Papostia>cd Desktop
+
+C:\Users\Papostia\Desktop>cd NodeJsCurso
+
+C:\Users\Papostia\Desktop\NodeJsCurso>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: 4654-62D6
+
+ Directorio de C:\Users\Papostia\Desktop\NodeJsCurso
+
+04/07/2019  07:11 p. m.    <DIR>          .
+04/07/2019  07:11 p. m.    <DIR>          ..
+04/07/2019  07:11 p. m.                 0 index.js
+               1 archivos              0 bytes
+               2 dirs  537.212.755.968 bytes libres
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+
+C:\Users\Papostia\Desktop\NodeJsCurso>clear
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+C:\Users\Papostia\Desktop\NodeJsCurso\index.js:1
+console.console.log('Hi world!');
+                ^
+
+TypeError: Cannot read property 'log' of undefined
+    at Object.<anonymous> (C:\Users\Papostia\Desktop\NodeJsCurso\index.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>clear
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+Hi world!
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+3
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+C:\Users\Papostia\Desktop\NodeJsCurso\index.js:27
+console.log(mutiply(1,2));
+        ^
+
+ReferenceError: mutiply is not defined
+    at Object.<anonymous> (C:\Users\Papostia\Desktop\NodeJsCurso\index.js:27:9)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+2
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+C:\Users\Papostia\Desktop\NodeJsCurso\index.js:5
+console.log(mat.add(1,0));
+            ^
+
+ReferenceError: mat is not defined
+    at Object.<anonymous> (C:\Users\Papostia\Desktop\NodeJsCurso\index.js:5:13)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>clear
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+C:\Users\Papostia\Desktop\NodeJsCurso\index.js:5
+console.log(mat.add(2,1));
+            ^
+
+ReferenceError: mat is not defined
+    at Object.<anonymous> (C:\Users\Papostia\Desktop\NodeJsCurso\index.js:5:13)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+3
+1
+2
+No se puede dividir por cero
+undefined
+
+C:\Users\Papostia\Desktop\NodeJsCurso>clear
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index,js
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\Papostia\Desktop\NodeJsCurso\index,js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:829:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+{ add: [Function: add],
+  substract: [Function: substract],
+  multiply: [Function: multiply],
+  divide: [Function: divide] }
+3
+1
+2
+No se puede dividir por cero
+undefined
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+{ add: [Function: add],
+  substract: [Function: substract],
+  multiply: [Function: multiply],
+  divide: [Function: divide] }
+3
+1
+2
+No se puede dividir por cero
+undefined
+
+C:\Users\Papostia\Desktop\NodeJsCurso>clear
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+{ add: [Function: add],
+  substract: [Function: substract],
+  multiply: [Function: multiply],
+  divide: [Function: divide] }
+3
+1
+2
+No se puede dividir por cero
+undefined
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\Users\Papostia\Desktop\NodeJsCurso\index.js:13:16)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+{ [Function: platform] [Symbol(Symbol.toPrimitive)]: [Function] }
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+win32
+10.0.17134
+3028058112
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+win32
+10.0.17134
+3064406016
+6924214272
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+win32
+10.0.17134
+3015458816 ' bytes'
+6924214272 ' bytes'
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+ultima linea de codigo
+Archivo creado :3
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+ultima linea de codigo
+<Buffer 4c 69 6e 65 61 20 64 65 20 70 72 75 62 61 20 6a 6f 74 6f 20 3a 33>
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+ultima linea de codigo
+[Function: toString]
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+ultima linea de codigo
+Linea de pruba joto :3
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+^C
+C:\Users\Papostia\Desktop\NodeJsCurso>
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+^C
+C:\Users\Papostia\Desktop\NodeJsCurso>
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+^C
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+^C
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+server port 3000
+^C
+C:\Users\Papostia\Desktop\NodeJsCurso>npm install colors
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\Papostia\Desktop\NodeJsCurso\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\Papostia\Desktop\NodeJsCurso\package.json'
+npm WARN NodeJsCurso No description
+npm WARN NodeJsCurso No repository field.
+npm WARN NodeJsCurso No README data
+npm WARN NodeJsCurso No license field.
+
++ colors@1.3.3
+added 1 package from 2 contributors and audited 1 package in 1.858s
+found 0 vulnerabilities
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>node index.js
+server port 3000
+^C
+C:\Users\Papostia\Desktop\NodeJsCurso>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodejscurso) NodeJsCurso
+Sorry, name can no longer contain capital letters.
+package name: (nodejscurso) 1.0.0
+version: (1.0.0)
+description: curso de nodejs
+entry point: (index.js)
+test command:
+git repository:
+keywords: come,gatos
+author: LaPapostia
+license: (ISC)
+About to write to C:\Users\Papostia\Desktop\NodeJsCurso\package.json:
+
+{
+  "name": "1.0.0",
+  "version": "1.0.0",
+  "description": "curso de nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "come",
+    "gatos"
+  ],
+  "author": "LaPapostia",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\Papostia\Desktop\NodeJsCurso>npma install
+"npma" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Papostia\Desktop\NodeJsCurso>npm install
+npm WARN 1.0.0@1.0.0 No repository field.
+
+audited 1 package in 0.927s
+found 0 vulnerabilities
+
+
+C:\Users\Papostia\Desktop\NodeJsCurso>
+
+C:\Users\Papostia\Desktop\NodeJsCurso>npm start
+
+> 1.0.0@1.0.0 start C:\Users\Papostia\Desktop\NodeJsCurso
+> node index.js
+
+server port 3000
+¿Desea terminar el trabajo por lotes (S/N)? s                  //control+c
+
+C:\Users\Papostia\Desktop\NodeJsCurso>

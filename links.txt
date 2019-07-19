@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=BhvLIzVL8_o              -- node js
+https://www.faztweb.com/                                 --tuturiales
+https://www.npmjs.com/                                   --modulos
+https://expressjs.com/es/                                --framework de sevidor
+https://nodejs.org/dist/latest-v10.x/docs/api/http.html  --documentacion de los modulos instalados en node js
+https://www.youtube.com/watch?v=qJ5R9WTW0_E              -- node js y mongo db

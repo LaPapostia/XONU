@@ -1,0 +1,4 @@
+npm install colors
+npm install ejs
+npm install express
+npm install nomdemon

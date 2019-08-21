@@ -77,5 +77,6 @@ server.get('/',function(req,res){
     res.end();
 });
 server.listen(3000,function(){
-console.log('server port'.red);
+    console.log('server port'.red);
+    console.log("Hola desde Timbuctú :D")
 })

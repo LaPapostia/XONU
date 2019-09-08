@@ -1,104 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= title%></title>
-    
 
-    <% include partials/head.html%>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= title%></title>
+
+
+  <% include partials/head.html%>
 </head>
 
 <body>
-    <% include partials/navigation.html%>
-    
-    <style>
-    body{
-       /*font-family: 'Spici'*/
-       font-family: 'Crimson Pro', serif;
-        font-size: 25px;
-        
+  <% include partials/navigation.html%>
+
+  <style>
+    body {
+      /*font-family: 'Spici'*/
+      font-family: 'Crimson Pro', serif;
+      font-size: 25px;
+
     }
-    </style>
+  </style>
 
-<div class="limiter">
-  <div class="container-login100">
-    <div class="wrap-login100 p-t-85 p-b-20">
-      <form class="login100-form validate-form" style="background-color: #7a5947">
-        <div><span class="login100-form-avatar" style="align-self: flex-start">
-          <img src="img/xonu.png"  width="300" height="250" class=" w-auto animated bounceIn">
-          
-        </span></div>
-        
-        <br><br>
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 p-t-85 p-b-20">
+        <form class="login100-form validate-form" style="background-color: #7a5947">
+          <div><span class="login100-form-avatar" style="align-self: flex-start">
+              <img src="img/xonu.png" width="300" height="250" class=" w-auto animated bounceIn">
 
-        <div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Enter username">
-          <input class="input100" type="text" name="username">
-          <span class="focus-input100" data-placeholder="Usuario"></span>
-        </div>
-<br>
+            </span></div>
 
-        <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
-          <input class="input100" type="password" name="pass">
-          <span class="focus-input100" data-placeholder="Contraseña"></span>
-        </div>
-<br>
-        <div class="container-login100-form-btn">
-          <button class="login100-form-btn">
-            Ingresar
-          </button>
-        </div>
-<br>
+          <br><br>
+
+          <div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate="Enter username">
+            <input class="input100" type="text" name="username">
+            <span class="focus-input100" data-placeholder="Usuario"></span>
+          </div>
+          <br>
+
+          <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+            <input class="input100" type="password" name="pass">
+            <span class="focus-input100" data-placeholder="Contraseña"></span>
+          </div>
+          <br>
+          <div class="container-login100-form-btn">
+            <button class="login100-form-btn">
+              Ingresar
+            </button>
+          </div>
+          <br>
 
 
-          
-        </ul>
-      </form>
+
+          </ul>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 
-<div id="dropDownSelect1"></div>
-
-  
-      <!-- section one -->
-      <div class="container-fluid" id="about">
-        <div class="row text-white p-5 text-center" style="background-color: #5c3d2d">
-          <div class="col-sm-6">
-            <img src="img/gato.png" width="300" height="250">
-          </div>
-          <div class="col-sm-6">
-            <h3>Los Comegatitos</h3>
-            <p style="color: white">
-              <span> Somos el equipo mas vergas :3 </span>
-              <br>
-              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-              hello
+  <div id="dropDownSelect1"></div>
 
 
-            </p>
-          </div>
-        </div>
+  <!-- section one -->
+  <div class="container-fluid" id="about">
+    <div class="row text-white p-5 text-center" style="background-color: #5c3d2d">
+      <div class="col-sm-6">
+        <img src="img/gato.png" width="300" height="250">
       </div>
-    <% include partials/footer.html%>
+      <div class="col-sm-6">
+        <h3>Los Comegatitos</h3>
+        <p style="color: white">
+          <span> Somos el equipo mas vergas :3 </span>
+          <br>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          hello
 
-    <!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <% include partials/footer.html%>
+
   <!--===============================================================================================-->
-    <script src="vendor/animsition/js/animsition.min.js"></script>
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/bootstrap/js/popper.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/animsition/js/animsition.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/select2/select2.min.js"></script>
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/daterangepicker/moment.min.js"></script>
-    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+  <script src="vendor/select2/select2.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/countdowntime/countdowntime.js"></script>
+  <script src="vendor/daterangepicker/moment.min.js"></script>
+  <script src="vendor/daterangepicker/daterangepicker.js"></script>
   <!--===============================================================================================-->
-    <script src="js/main.js"></script>
+  <script src="vendor/countdowntime/countdowntime.js"></script>
+  <!--===============================================================================================-->
+  <script src="js/main.js"></script>
 </body>
 
 

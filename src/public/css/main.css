@@ -4,9 +4,6 @@ body{
 }
 
   
-  /*//////////////////////////////////////////////////////////////////
-  [ RESTYLE TAG ]*/
-  
   * {
       margin: 0px;
       padding: 0px;
@@ -130,6 +127,26 @@ body{
     margin: 0 auto;
   }
   
+  .login100-form-avatar{
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    background-image: url(src/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 650px;
+  }
   .container-login100 {
     width: 100%;
     min-height: 100vh;
@@ -167,18 +184,7 @@ body{
     text-align: center;
   }
   
-  .login100-form-avatar {
-    display: block;
-    width: 300px;
-    height: 250px;
-    border-radius: 0%;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  
-  .login100-form-avatar img {
-    width: 100%;
-  }
+
   
   /*------------------------------------------------------------------
   [ Input ]*/
@@ -202,7 +208,9 @@ body{
     padding: 0 5px;
   }
   
-  /*---------------------------------------------*/
+  
+  
+  /* eventos cursor :3*/
   .focus-input100 {
     position: absolute;
     display: block;
@@ -213,6 +221,7 @@ body{
     pointer-events: none;
   }
   
+  /* linea animacion*/
   .focus-input100::before {
     content: "";
     display: block;
@@ -227,7 +236,7 @@ body{
     -moz-transition: all 0.4s;
     transition: all 0.4s;
   
-    background: #57b846;
+    background: white;
   }
   
   .focus-input100::after {
@@ -314,6 +323,7 @@ body{
     transition: all 0.4s;
   }
   
+  /* evento boton animacion*/
   .login100-form-btn:hover  {
     background-color: #333333;
     box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
@@ -418,3 +428,14 @@ body{
     transform: translateY(-50%);
     left: 0;
   }
+
+  /* Mantener el nav statico*/
+  #main-header {
+	height: fit-content;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  z-index: 1001;/* Evitar sobreposicion de ocntenido */
+  
+}

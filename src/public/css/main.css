@@ -124,29 +124,19 @@ body{
   
   .limiter {
     width: 100%;
-    margin: 0 auto;
   }
   
   .login100-form-avatar{
     width: 100%;
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-
-    background-image: url(src/img/bg.jpg);
+    height: 700px;
+   
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    width: 100%;
-    height: 650px;
+    background-size: 150%;
+    
+
   }
+
   .container-login100 {
     width: 100%;
     min-height: 100vh;
@@ -162,11 +152,7 @@ body{
     background: #7a5947;
   }
   
-  .wrap-login100 {
-    width: 390px;
-    background: #000000;
-  }
-  
+
   
   /*------------------------------------------------------------------
   [ Form ]*/
@@ -174,25 +160,14 @@ body{
   .login100-form {
     width: 100%;
   }
-  
-  .login100-form-title {
-    display: block;
-    
-    font-size: 35px;
-    color: #4652B2;
-    line-height: 1.2;
-    text-align: center;
-  }
-  
-
-  
+ 
   /*------------------------------------------------------------------
   [ Input ]*/
   
   .wrap-input100 {
     width: 100%;
-    position: relative;
     border-bottom: 2px solid #3d2a1f;
+    background: transparent;
   }
   
   .input100 {
@@ -205,7 +180,7 @@ body{
     width: 100%;
     height: 52px;
     background: transparent;
-    padding: 0 5px;
+    
   }
   
   
@@ -308,7 +283,7 @@ body{
     padding: 0 20px;
     width: 100%;
     height: 50px;
-    background-color: #a98274;
+    background-color: #5c3d2d;
     border-radius: 25px;
   
     box-shadow: 0 10px 30px 0px rgba(169, 130, 116, 0.5);
